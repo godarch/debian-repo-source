@@ -16,3 +16,6 @@ override_dh_usrlocal:
 
 override_dh_auto_build:
 	cd '$(OUR_GOPATH)/src/github.com/godarch/darch' && make
+
+override_dh_install:
+	cd '$(OUR_GOPATH)/src/github.com/godarch/darch' && make install DESTDIR=$(CURDIR)/debian/darch

@@ -2,3 +2,5 @@
 *.tar.gz
 *.changes
 *.deb
+.debhelper
+*.buildinfo

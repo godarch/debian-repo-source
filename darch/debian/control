@@ -2,6 +2,9 @@ Source: darch
 Section: devel
 Priority: optional
 Maintainer: Paul Knopf <pauldotknopf@gmail.com>
+Build-Depends: git,
+    golang,
+    debhelper
 
 Package: darch
 Architecture: any
