@@ -1,0 +1,8 @@
+Source: darch
+Section: devel
+Priority: optional
+Maintainer: Paul Knopf <pauldotknopf@gmail.com>
+
+Package: darch
+Architecture: any
+Description: A tool for building and booting stateless and immutable images, bare metal.

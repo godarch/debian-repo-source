@@ -1,0 +1,15 @@
+#!/usr/bin/make -f
+
+OUR_GOPATH := $(CURDIR)/.gopath
+export GOPATH := $(OUR_GOPATH)
+
+%:
+	dh $@
+
+override_dh_auto_configure:
+	mkdir -p '$(OUR_GOPATH)/src/github.com/godarch'
+	ln -sfT '$(CURDIR)/source' '$(OUR_GOPATH)/src/github.com/godarch/darch'
+
+override_dh_auto_test:
+
+override_dh_usrlocal:
