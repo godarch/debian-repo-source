@@ -1,0 +1,24 @@
+#!/usr/bin/make -f
+
+OUR_GOPATH := $(CURDIR)/.gopath
+export GOPATH := $(OUR_GOPATH)
+
+%:
+	dh $@
+
+override_dh_auto_configure:
+	mkdir -p '$(OUR_GOPATH)/src/github.com/containerd'
+	ln -sfT '$(CURDIR)/source' '$(OUR_GOPATH)/src/github.com/containerd/containerd'
+
+override_dh_auto_test:
+
+override_dh_usrlocal:
+
+override_dh_auto_build:
+	cd '$(OUR_GOPATH)/src/github.com/containerd/containerd' && make
+
+override_dh_install:
+	cd '$(OUR_GOPATH)/src/github.com/containerd/containerd' && make install DESTDIR=$(CURDIR)/debian/darch-containerd/usr
+	sed -i "s|/usr/local/bin/containerd|/usr/bin/containerd|" source/containerd.service
+	sed -i "s|/sbin/modprobe|/usr/bin/env modprobe|" source/containerd.service
+	install -Dm644 source/containerd.service $(CURDIR)/debian/darch-containerd/usr/lib/systemd/system/containerd.service

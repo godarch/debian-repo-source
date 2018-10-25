@@ -1,0 +1,9 @@
+Source: darch-containerd
+Section: devel
+Priority: optional
+Maintainer: Paul Knopf <pauldotknopf@gmail.com>
+
+Package: darch-containerd
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: An open and reliable container runtime.

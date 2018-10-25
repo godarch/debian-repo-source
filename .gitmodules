@@ -4,3 +4,6 @@
 [submodule "runc/source"]
 	path = runc/source
 	url = https://github.com/opencontainers/runc.git
+[submodule "containerd/source"]
+	path = containerd/source
+	url = https://github.com/containerd/containerd.git

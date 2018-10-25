@@ -1,6 +1,6 @@
 .gopath/
 debian/*.log
-debian/darch-runc/*
+debian/darch-containerd/*
 debian/files
 debian/debhelper-build-stamp
-debian/darch-runc.substvars
+debian/darch-containerd.substvars
