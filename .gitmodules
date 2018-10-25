@@ -1,3 +1,6 @@
 [submodule "darch/source"]
 	path = darch/source
 	url = https://github.com/godarch/darch.git
+[submodule "runc/source"]
+	path = runc/source
+	url = https://github.com/opencontainers/runc.git
