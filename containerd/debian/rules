@@ -4,7 +4,7 @@ OUR_GOPATH := $(CURDIR)/.gopath
 export GOPATH := $(OUR_GOPATH)
 
 %:
-	dh $@
+	dh $@ --with=systemd
 
 override_dh_auto_configure:
 	mkdir -p '$(OUR_GOPATH)/src/github.com/containerd'
