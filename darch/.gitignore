@@ -3,3 +3,4 @@ debian/*.log
 debian/darch/*
 debian/files
 debian/debhelper-build-stamp
+debian/darch.substvars

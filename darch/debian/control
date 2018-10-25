@@ -5,4 +5,5 @@ Maintainer: Paul Knopf <pauldotknopf@gmail.com>
 
 Package: darch
 Architecture: any
+Depends: ${shlibs:Depends}
 Description: A tool for building and booting stateless and immutable images, bare metal.
