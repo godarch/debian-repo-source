@@ -2,6 +2,11 @@ Source: darch-containerd
 Section: devel
 Priority: optional
 Maintainer: Paul Knopf <pauldotknopf@gmail.com>
+Build-Depends: git,
+    golang,
+    debhelper,
+    libbtrfs-dev,
+    libseccomp-dev
 
 Package: darch-containerd
 Architecture: any

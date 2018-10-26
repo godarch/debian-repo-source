@@ -14,5 +14,10 @@ override_dh_auto_test:
 
 override_dh_usrlocal:
 
+#PREFIX
+
 override_dh_auto_build:
 	cd '$(OUR_GOPATH)/src/github.com/opencontainers/runc' && make
+
+override_dh_install:
+	cd '$(OUR_GOPATH)/src/github.com/opencontainers/runc' && make install PREFIX=$(CURDIR)/debian/darch-runc
