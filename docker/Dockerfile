@@ -11,6 +11,7 @@ RUN apt-get -y install build-essential \
 RUN apt-get -y remove btrfs-progs
 RUN apt-get -y install libbtrfs-dev
 RUN apt-get -y install libseccomp-dev
+RUN apt-get -y install devscripts
 
 RUN mkdir /work
 

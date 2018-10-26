@@ -1,4 +1,4 @@
-darch-containerd (1.2.0-1) UNRELEASED; urgency=medium
+darch-containerd (1.2.0-1) unstable; urgency=medium
 
   * Initial release. (Closes: #XXXXXX)
 

@@ -10,5 +10,5 @@ Build-Depends: git,
 
 Package: darch-containerd
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, darch-runc
 Description: An open and reliable container runtime.

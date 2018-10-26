@@ -1,5 +1,6 @@
-darch-runc (1.0.0-rc5-1) UNRELEASED; urgency=medium
+darch-runc (1.0.0~rc5-1) unstable; urgency=medium
 
   * Initial release. (Closes: #XXXXXX)
+  * 
 
- -- Paul Knopf <pauldotknopf@gmail.com>  Tue, 23 Oct 2018 06:16:04 -0400
+ -- Paul Knopf <pauldotknopf@gmail.com>  Fri, 26 Oct 2018 10:12:38 -0400
