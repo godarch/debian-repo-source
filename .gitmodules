@@ -7,3 +7,6 @@
 [submodule "containerd/source"]
 	path = containerd/source
 	url = https://github.com/containerd/containerd.git
+[submodule "darch-initramfs-tools/source"]
+	path = darch-initramfs-tools/source
+	url = https://github.com/godarch/darch-initramfs-tools.git

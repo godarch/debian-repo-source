@@ -1,0 +1,8 @@
+Source: darch-initramfs-tools
+Section: devel
+Priority: optional
+Maintainer: Paul Knopf <pauldotknopf@gmail.com>
+
+Package: darch-initramfs-tools
+Architecture: all
+Description: The scripts for initramfs to mount and boot Darch images.

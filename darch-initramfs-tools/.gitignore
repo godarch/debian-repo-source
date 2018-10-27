@@ -1,0 +1,6 @@
+.gopath/
+debian/*.log
+debian/darch-initramfs-tools/*
+debian/files
+debian/debhelper-build-stamp
+debian/darch-initramfs-tools.substvars
