@@ -8,5 +8,5 @@ Build-Depends: git,
 
 Package: darch
 Architecture: any
-Depends: ${shlibs:Depends}, darch-containerd
+Depends: ${shlibs:Depends}, darch-containerd, grub2-common
 Description: A tool for building and booting stateless and immutable images, bare metal.
