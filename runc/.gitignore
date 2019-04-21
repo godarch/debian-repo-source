@@ -1,6 +1,0 @@
-.gopath/
-debian/*.log
-debian/darch-runc/*
-debian/files
-debian/debhelper-build-stamp
-debian/darch-runc.substvars

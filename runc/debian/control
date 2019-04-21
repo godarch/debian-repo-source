@@ -1,9 +1,0 @@
-Source: darch-runc
-Section: devel
-Priority: optional
-Maintainer: Paul Knopf <pauldotknopf@gmail.com>
-
-Package: darch-runc
-Architecture: any
-Depends: ${shlibs:Depends}
-Description: A CLI tool for spawning and running containers according to the OCI specification.
