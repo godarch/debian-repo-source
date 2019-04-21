@@ -1,5 +1,6 @@
-darch (0.27.0-1) unstable; urgency=medium
+darch (0.28.0-1) unstable; urgency=medium
 
-  * Initial release.
+  * Minor changes.
+  * Dependending on official containerd packages.
 
- -- Paul Knopf <pauldotknopf@gmail.com>  Tue, 23 Oct 2018 06:16:04 -0400
+ -- Paul Knopf <pauldotknopf@gmail.com>  Sun, 21 Apr 2019 06:16:04 -0400

@@ -7,6 +7,6 @@ Build-Depends: git,
     debhelper
 
 Package: darch
-Architecture: any
-Depends: ${shlibs:Depends}, darch-containerd, grub2-common
+Architecture: amd64
+Depends: ${shlibs:Depends}, containerd.io, grub2-common
 Description: A tool for building and booting stateless and immutable images, bare metal.
